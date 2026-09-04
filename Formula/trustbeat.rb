@@ -12,30 +12,30 @@
 class Trustbeat < Formula
   desc "Anchor files to qualified eIDAS timestamps and verify proofs offline"
   homepage "https://trustbeat.eu/en"
-  version "0.2.0"
+  version "0.2.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/TrustBeat/trustbeat-cli/releases/download/v0.2.0/trustbeat-0.2.0-aarch64-apple-darwin.tar.gz"
-      sha256 "c8ac73166f7827bfe36b4732b6acf8c3de80aa84a9309c4f3c05a07c84fbb937"
+      url "https://github.com/TrustBeat/trustbeat-cli/releases/download/v0.2.1/trustbeat-0.2.1-aarch64-apple-darwin.tar.gz"
+      sha256 "0b2c3f56ff6361cebe645e44faeae8f3504e0a700e4dbc625bd4cb282f5923c4"
     end
 
     on_intel do
-      url "https://github.com/TrustBeat/trustbeat-cli/releases/download/v0.2.0/trustbeat-0.2.0-x86_64-apple-darwin.tar.gz"
-      sha256 "8b403f1ed13b3e1d058f06c53857d10f351d8877a6400f69c31480cfab830bf5"
+      url "https://github.com/TrustBeat/trustbeat-cli/releases/download/v0.2.1/trustbeat-0.2.1-x86_64-apple-darwin.tar.gz"
+      sha256 "e22c5b32a28d073ecc5d755451943cc9e511a24da313e00b6a45b7a8c99f253c"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/TrustBeat/trustbeat-cli/releases/download/v0.2.0/trustbeat-0.2.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "5a2436643b3e8af1b4faa7502b8bff8e3d927841bc33008d0172b70ddd73f037"
+      url "https://github.com/TrustBeat/trustbeat-cli/releases/download/v0.2.1/trustbeat-0.2.1-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "342d7211da4f3e56f0366a7b4da056158c43c6695add6dc4668dd0653d067b45"
     end
 
     on_intel do
-      url "https://github.com/TrustBeat/trustbeat-cli/releases/download/v0.2.0/trustbeat-0.2.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "d5d32791e89c82cce78e95ad905abc1b916016ed142fa8122ab83bfde1935f19"
+      url "https://github.com/TrustBeat/trustbeat-cli/releases/download/v0.2.1/trustbeat-0.2.1-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "653eda1a021f3bcd47cc0ed025f0fab650ef82b78c09b78bd67aaab19c064125"
     end
   end
 
